@@ -3,10 +3,13 @@ package com.xworkz.object.boot;
 import com.xworkz.object.things.Adike;
 
 public class AdikeRunner {
+	public static void main(String[] args) {
+		
+	
 	Adike adike = new Adike();
 
 	String str = adike.getName();
-	system.out.primtln(str);
+	System.out.println(str);
 	String str1 = adike.getType();
 	System.out.println(str1);
 	double d = adike.getPrice();
@@ -27,4 +30,5 @@ public class AdikeRunner {
 	System.out.println(adike1.hashCode() + " Original hashCode :" + System.identityHashCode(adike1));
 
 	System.out.println(adike.equals(adike1));
-}}
+}
+}

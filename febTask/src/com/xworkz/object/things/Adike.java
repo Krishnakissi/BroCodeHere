@@ -26,16 +26,16 @@ public class Adike {
 		return 100D;
 	}
 
-	@overide
+	@Override
 	public String toString() {
 		return "name :" + this.name + " \ntype :" + this.type + " \n price :" + this.price + "\n quantity :"
 				+ this.quantity;
 	}
 
-	@overide
+	
 	@Override
 	public int hashCode() {
-		// TODO Auto-generated method stub
+		
 		return super.hashCode();
 	}
 }
